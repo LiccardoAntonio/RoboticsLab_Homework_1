@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>armando_gazebo</name>
+  <version>0.0.0</version>
+  <description>Armando gazebo package</description>
+  <maintainer email="antonio.liccardo97@hotmail.com">antonioliccardo</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>xacro</depend>
+  <depend>controller_manager</depend>
+  <depend>joint_state_broadcaster</depend>
+  <depend>position_controllers</depend>
+  <depend>ros_gz_sim</depend>
+  <depend>ros_ign_bridge</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
