@@ -74,7 +74,7 @@ The robot is loaded from `arm.urdf.xacro` and visualized in RViz through:
 
 *   `robot_state_publisher`
     
-*   `joint_state_publisher` / `joint_state\publisher_gui`
+*   `joint_state_publisher` / `joint_state_publisher_gui`
     
 *   `rviz2`
     
